@@ -4,11 +4,15 @@
   "description": "Responsive Portfolio Website",
   "main": "index.js",
   "scripts": {
+    "delpoy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Vishal Thakur",
   "license": "ISC",
+  "homepage": "https://vishalthakur08.github.io/my-portfolio",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "gh-pages-deploy": "^0.5.1",
     "node-sass": "^4.12.0"
   }
 }
