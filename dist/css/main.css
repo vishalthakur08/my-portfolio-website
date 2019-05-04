@@ -54,7 +54,8 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/./img/portrait.jpg");
+      background: url("/./img/portrait1.jpeg");
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -201,10 +202,10 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a;
-        transition: all 0.5s ease-out; }
+        color: #eece1a; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -214,20 +215,20 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
-  grid-template-areas: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border-color: #eece1a 3px solid; }
+    border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .about-info .job1 {
+  .about-info .job-1 {
     grid-area: job1; }
-  .about-info .job2 {
+  .about-info .job-2 {
     grid-area: job2; }
-  .about-info .job3 {
+  .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
     background: #515151;
