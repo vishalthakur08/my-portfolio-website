@@ -91,15 +91,19 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+    text-align: justify;
   }
   .job-1 {
     grid-area: job1;
+    text-align: justify;
   }
   .job-2 {
     grid-area: job2;
+    text-align: justify;
   }
   .job-3 {
     grid-area: job3;
+    text-align: justify;
   }
 
   .job {
