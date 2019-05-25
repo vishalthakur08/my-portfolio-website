@@ -13,6 +13,7 @@
   "dependencies": {
     "gh-pages": "^2.0.1",
     "gh-pages-deploy": "^0.5.1",
+    "mpm": "0.0.1",
     "node-sass": "^4.12.0"
   }
 }
